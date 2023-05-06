@@ -1,5 +1,5 @@
 {% set name = "castepxbin" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/castepxbin-{{ version }}.tar.gz
-  sha256: 75103a43b761ae192ffc2a49d5a232a6475a4eafb18fcd649c48546023fe3594
+  sha256: c11479b0410ee9bdce52475836b2f46db807b8ee9629fc732218f96efb415755
 
 build:
   number: 0
